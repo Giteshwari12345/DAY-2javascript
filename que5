@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>DISPLAY DATE IN THE BROWSER</h2>
+
+<button type="button"
+onclick="document.getElementById('browse').innerHTML = Date()">
+Hit me to display Date and Time.</button>
+
+<p id="browse"></p>
+
+</body>
+</html>
