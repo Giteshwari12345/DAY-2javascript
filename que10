@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+<label>phn-no</label><input type="nums" name="box" id="phone"/>
+
+    <button type="button" onclick="check(box)"> click on check</button>
+    <script>
+        function check(box)
+        {
+           if("box.length==10")
+           {
+               document.write("Correct phone no");
+           }
+           else{
+               document.write("Invalid phone no");
+           }
+            
+        }
+        
+        var box = document.getElementById("phone");
+
+    </script>
+</body>
+</html>
