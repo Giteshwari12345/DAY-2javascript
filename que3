@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>NAME IS HIDDEN HERE</h2>
+
+<h2>CLICK ON THE DISPLAY BUTTON<h2>
+
+
+<p id="hidden" style="display:none">GITESHWARI WADBUDHE IS HERE</p>
+
+<button type="button" onclick="document.getElementById('hidden').style.display='block'">CLICK ON BUTTON</button>
+
+</body>
+</html>
