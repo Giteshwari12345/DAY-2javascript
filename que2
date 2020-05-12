@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>THE NAME IS HERE</h2>
+
+<p id="name">click on the button</p>
+
+<button type="button" onclick='document.getElementById("name").innerHTML ="GITESHWARI WADBUDHE"'>click here</button>
+
+</body>
+</html>
