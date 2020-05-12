@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>FONT SIZE</h2>
+
+<p id="FONT" style="font-size:4">giteshwari wadbudhe<p>
+
+
+<button onclick="myFun()">Try it</button>
+
+<p id="FONT"> </p>
+
+<script>
+function myFun() {
+  var str = "giteshwari wadbudhe";
+  var result = str.fontsize(7);
+  document.getElementById("FONT").innerHTML = result;
+}
+</script>
+
+</body>
+</html>
